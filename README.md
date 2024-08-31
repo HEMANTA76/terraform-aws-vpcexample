@@ -1,1 +1,2 @@
-#Terraform aws vpc example
+#Terraform module aws vpc example
+## Installation
