@@ -1,14 +1,14 @@
 output "arn" {
   description = "VPC Arn"
-  value = aws_vpc.vpc.arn
+  value       = aws_vpc.vpc.arn
 }
 output "cidr_block" {
   description = "CIDR block for the VPC"
-  value = aws_vpc.vpc.cidr_block
+  value       = aws_vpc.vpc.cidr_block
 }
 output "id" {
   description = "VPC ID"
-  value = aws_vpc.vpc.id
+  value       = aws_vpc.vpc.id
 }
 output "name" {
   description = "VPC name."
